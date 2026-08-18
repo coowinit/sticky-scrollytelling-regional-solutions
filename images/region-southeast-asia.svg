@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-label="Southeast Asia interior scene placeholder">
+  <rect width="900" height="600" fill="#e4ecec"/>
+  <rect y="430" width="900" height="170" fill="#b18e70"/>
+  <rect x="75" y="75" width="355" height="270" rx="12" fill="#ccb89e"/>
+  <rect x="100" y="98" width="160" height="226" fill="#f2eee7"/>
+  <g fill="#9d7b60"><rect x="286" y="98" width="24" height="226"/><rect x="320" y="98" width="24" height="226"/><rect x="354" y="98" width="24" height="226"/></g>
+  <circle cx="590" cy="120" r="48" fill="#9eb394"/>
+  <circle cx="638" cy="118" r="45" fill="#8ea883"/>
+  <rect x="610" y="150" width="12" height="100" fill="#735c47"/>
+  <rect x="520" y="210" width="190" height="130" rx="9" fill="#ddd6cc"/>
+  <rect x="548" y="235" width="136" height="78" rx="7" fill="#cbc7c1"/>
+  <rect x="380" y="364" width="240" height="64" rx="28" fill="#8f735f"/>
+  <rect x="420" y="342" width="82" height="57" rx="22" fill="#a79282"/>
+  <rect x="515" y="342" width="82" height="57" rx="22" fill="#7c5d48"/>
+  <ellipse cx="500" cy="492" rx="160" ry="32" fill="#8d6d55" opacity=".45"/>
+</svg>

@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Regional Solutions sticky scrollytelling demo with pinned visuals, scroll-synced navigation and responsive fallback.">
+  <title>Regional Solutions — Sticky Scrollytelling</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--
+    Full desktop effect uses GSAP + ScrollTrigger.
+    If the CDN cannot load, app.js automatically falls back to native
+    CSS sticky + IntersectionObserver, so the demo remains usable offline.
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <section class="demo-spacer demo-spacer--top" aria-label="Previous demo section">
+    <div class="demo-spacer__inner">
+      <p class="demo-spacer__eyebrow">Demo Section</p>
+      <h2>Previous Section</h2>
+    </div>
+  </section>
+
+  <main>
+    <section class="regions" id="regional-solutions">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Get Inspired</p>
+          <h1>Regional Solutions</h1>
+          <p>Explore market-focused decorative solutions developed for different architectural styles, climates and application needs.</p>
+        </header>
+
+        <div class="scrolly" data-scrolly>
+          <div class="scrolly__content" data-story-content>
+            <article class="story-item is-active" data-story-item>
+              <div class="story-item__mobile-media story-media" data-story-media>
+                <img class="story-media__image" src="images/region-north-america.svg" alt="North America market application scene">
+                <div class="media-3d">
+                  <div class="media-3d__qr" role="tooltip">
+                    <img src="images/qr-fluted-wall-panel-veneer.png" alt="QR code for North America 3D preview">
+                    <span>Scan to view in 3D</span>
+                  </div>
+                  <a class="media-3d__button" href="#" target="_blank" rel="noopener" aria-label="Open North America 3D preview">
+                    <img src="images/vr720.png" alt="" aria-hidden="true">
+                    <span>3D</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="story-item__body">
+                <div class="story-item__meta">
+                  <span>North America</span>
+                  <span data-story-index>01</span>
+                </div>
+                <h2>North America Market Solutions</h2>
+                <p>Solutions for residential, commercial and outdoor applications with a clean, contemporary architectural language.</p>
+                <a class="story-item__cta" href="#">View Solution</a>
+              </div>
+            </article>
+
+            <article class="story-item" data-story-item>
+              <div class="story-item__mobile-media story-media" data-story-media>
+                <img class="story-media__image" src="images/region-europe.svg" alt="Europe market application scene">
+                <div class="media-3d">
+                  <div class="media-3d__qr" role="tooltip">
+                    <img src="images/qr-fluted-wall-panel-veneer.png" alt="QR code for Europe 3D preview">
+                    <span>Scan to view in 3D</span>
+                  </div>
+                  <a class="media-3d__button" href="#" target="_blank" rel="noopener" aria-label="Open Europe 3D preview">
+                    <img src="images/vr720.png" alt="" aria-hidden="true">
+                    <span>3D</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="story-item__body">
+                <div class="story-item__meta">
+                  <span>Europe</span>
+                  <span data-story-index>02</span>
+                </div>
+                <h2>Europe Market Solutions</h2>
+                <p>Material combinations for contemporary interiors, facades and renovation projects across European applications.</p>
+                <a class="story-item__cta" href="#">View Solution</a>
+              </div>
+            </article>
+
+            <article class="story-item" data-story-item>
+              <div class="story-item__mobile-media story-media" data-story-media>
+                <img class="story-media__image" src="images/region-middle-east.svg" alt="Middle East market application scene">
+                <div class="media-3d">
+                  <div class="media-3d__qr" role="tooltip">
+                    <img src="images/qr-fluted-wall-panel-veneer.png" alt="QR code for Middle East 3D preview">
+                    <span>Scan to view in 3D</span>
+                  </div>
+                  <a class="media-3d__button" href="#" target="_blank" rel="noopener" aria-label="Open Middle East 3D preview">
+                    <img src="images/vr720.png" alt="" aria-hidden="true">
+                    <span>3D</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="story-item__body">
+                <div class="story-item__meta">
+                  <span>Middle East</span>
+                  <span data-story-index>03</span>
+                </div>
+                <h2>Middle East Market Solutions</h2>
+                <p>Durable decorative solutions developed around villas, hospitality, commercial spaces and outdoor environments.</p>
+                <a class="story-item__cta" href="#">View Solution</a>
+              </div>
+            </article>
+
+            <article class="story-item" data-story-item>
+              <div class="story-item__mobile-media story-media" data-story-media>
+                <img class="story-media__image" src="images/region-southeast-asia.svg" alt="Southeast Asia market application scene">
+                <div class="media-3d">
+                  <div class="media-3d__qr" role="tooltip">
+                    <img src="images/qr-fluted-wall-panel-veneer.png" alt="QR code for Southeast Asia 3D preview">
+                    <span>Scan to view in 3D</span>
+                  </div>
+                  <a class="media-3d__button" href="#" target="_blank" rel="noopener" aria-label="Open Southeast Asia 3D preview">
+                    <img src="images/vr720.png" alt="" aria-hidden="true">
+                    <span>3D</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="story-item__body">
+                <div class="story-item__meta">
+                  <span>Southeast Asia</span>
+                  <span data-story-index>04</span>
+                </div>
+                <h2>Southeast Asia Market Solutions</h2>
+                <p>Flexible indoor and outdoor applications for warm-climate residential, resort and commercial projects.</p>
+                <a class="story-item__cta" href="#">View Solution</a>
+              </div>
+            </article>
+          </div>
+
+          <aside class="scrolly__aside" aria-label="Regional solution visual">
+            <div class="scrolly__pin" data-story-pin>
+              <div class="visual-stage" data-visual-stage aria-live="polite"></div>
+              <nav class="story-nav" aria-label="Regional solution sections" data-story-nav></nav>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="demo-spacer demo-spacer--bottom" aria-label="Next demo section">
+    <div class="demo-spacer__inner">
+      <p class="demo-spacer__eyebrow">Demo Section</p>
+      <h2>Next Section</h2>
+    </div>
+  </section>
+</body>
+</html>

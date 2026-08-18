@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-label="Middle East interior scene placeholder">
+  <rect width="900" height="600" fill="#eee8df"/>
+  <rect y="430" width="900" height="170" fill="#a9896e"/>
+  <rect x="52" y="68" width="796" height="300" rx="14" fill="#dfcfbb"/>
+  <rect x="84" y="96" width="266" height="244" fill="#f5f1ea"/>
+  <g fill="#b69a7c"><rect x="392" y="96" width="28" height="244"/><rect x="432" y="96" width="28" height="244"/><rect x="472" y="96" width="28" height="244"/><rect x="512" y="96" width="28" height="244"/></g>
+  <rect x="582" y="124" width="210" height="190" rx="9" fill="#c9b59e"/>
+  <circle cx="688" cy="218" r="58" fill="#e9e1d6"/>
+  <rect x="285" y="366" width="326" height="72" rx="32" fill="#8e715d"/>
+  <rect x="324" y="344" width="98" height="63" rx="25" fill="#a28a78"/>
+  <rect x="455" y="344" width="98" height="63" rx="25" fill="#765946"/>
+  <ellipse cx="448" cy="493" rx="178" ry="34" fill="#92725a" opacity=".5"/>
+</svg>
